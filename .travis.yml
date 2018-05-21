@@ -1,2 +1,2 @@
-language: visualbasic
+language: vbnet
 solution: R6RegionChanger.sln
