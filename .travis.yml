@@ -1,2 +1,9 @@
 language: csharp
 solution: R6RegionChanger.sln
+
+matrix:
+  include:
+    - dotnet: 1.1.5
+      mono: none
+      env: DOTNETCORE=1
+    - mono: latest
