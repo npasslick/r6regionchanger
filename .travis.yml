@@ -1,2 +1,2 @@
-language: vbnet
+language: csharp
 solution: R6RegionChanger.sln
