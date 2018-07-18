@@ -30,5 +30,5 @@ Use the *Issue* function in this GitHub repository to submit any issues or use [
 ## Download
 
 
-**[Download Binary (Current version)](http://dl.passlickdev.com/download?id=10021)** | [MD5 Hash](https://dl.passlickdev.com/hash/10021/current/hash.md5)  
+**[Download Binary (Current version)](http://dl.passlickdev.com/download?id=10021)** | [MD5 Hash](https://dl.passlickdev.com/hash/10021/current/hash.md5) | [VirusTotal report](https://www.virustotal.com/en/file/d7a0005c878aee8f5640c417f20b283ec269d66e51d29b0f48543d1efbc3ddd0/analysis/1531931923/)  
 For older versions, see *Releases* in the GitHub repository
