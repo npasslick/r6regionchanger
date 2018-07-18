@@ -3,7 +3,7 @@ Public Class frmError
 
     ' Report bug button
     Private Sub reportbug_button_Click(sender As Object, e As EventArgs) Handles btnReportBug.Click
-        Process.Start("https://passlickdev.com/en/support/bugform.html")
+        Process.Start("https://github.com/passlickdev/r6regionchanger/issues")
     End Sub
 
     ' Close button
