@@ -28,6 +28,7 @@ Partial Class frmAbout
         Me.lblCopyright = New System.Windows.Forms.Label()
         Me.llblUpdates = New System.Windows.Forms.LinkLabel()
         Me.pbPD = New System.Windows.Forms.PictureBox()
+        Me.lblLicense = New System.Windows.Forms.Label()
         CType(Me.pbPD, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -57,11 +58,12 @@ Partial Class frmAbout
         '
         Me.lblCopyright.AutoSize = True
         Me.lblCopyright.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblCopyright.Location = New System.Drawing.Point(41, 165)
+        Me.lblCopyright.Location = New System.Drawing.Point(41, 150)
         Me.lblCopyright.Name = "lblCopyright"
         Me.lblCopyright.Size = New System.Drawing.Size(299, 14)
         Me.lblCopyright.TabIndex = 0
-        Me.lblCopyright.Text = "Copyright © Passlick Development XXXX. All rights reserved." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.lblCopyright.Text = "Copyright © Passlick Development XXXX. All rights reserved."
+        Me.lblCopyright.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'llblUpdates
         '
@@ -86,12 +88,23 @@ Partial Class frmAbout
         Me.pbPD.TabIndex = 6
         Me.pbPD.TabStop = False
         '
+        'lblLicense
+        '
+        Me.lblLicense.AutoSize = True
+        Me.lblLicense.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblLicense.Location = New System.Drawing.Point(68, 165)
+        Me.lblLicense.Name = "lblLicense"
+        Me.lblLicense.Size = New System.Drawing.Size(244, 14)
+        Me.lblLicense.TabIndex = 8
+        Me.lblLicense.Text = "Licensed under GNU General Public License v3.0"
+        '
         'frmAbout
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(96.0!, 96.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(377, 188)
+        Me.Controls.Add(Me.lblLicense)
         Me.Controls.Add(Me.llblUpdates)
         Me.Controls.Add(Me.pbPD)
         Me.Controls.Add(Me.lblCopyright)
@@ -117,4 +130,5 @@ Partial Class frmAbout
     Friend WithEvents lblCopyright As System.Windows.Forms.Label
     Friend WithEvents pbPD As PictureBox
     Friend WithEvents llblUpdates As LinkLabel
+    Friend WithEvents lblLicense As Label
 End Class
