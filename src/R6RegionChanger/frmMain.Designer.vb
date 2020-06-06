@@ -84,7 +84,7 @@ Partial Class frmMain
         Me.dropRegion.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.dropRegion.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.dropRegion.FormattingEnabled = True
-        Me.dropRegion.Items.AddRange(New Object() {"", "default (ping based) [recommended]", "eus (US East)", "cus (US Central)", "scus (US South Central)", "wus (US West)", "sbr (Brazil South)", "neu (Europe North)", "weu (Europe West)", "eas (Asia East)", "seas (Asia South East)", "eau (Australia East)", "wja (Japan West)"})
+        Me.dropRegion.Items.AddRange(New Object() {"", "default (ping based) [recommended]", "eastus (US East)", "centralus (US Central)", "southcentralus (US South Central)", "westus (US West)", "brazilsouth (Brazil South)", "northeurope (Europe North)", "westeurope (Europe West)", "southafricanorth (Africa South North)", "eastasia (Asia East)", "southeastasia (Asia South East)", "australiaeast (Australia East)", "australiasoutheast (Australia South East)", "japanwest (Japan West)"})
         Me.dropRegion.Location = New System.Drawing.Point(109, 125)
         Me.dropRegion.Name = "dropRegion"
         Me.dropRegion.Size = New System.Drawing.Size(237, 22)

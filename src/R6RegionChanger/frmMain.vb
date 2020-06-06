@@ -43,28 +43,32 @@ Public Class frmMain
 
             If R6ProfileRegionVar = "default" Then
                 dropRegion.Text = "default (ping based) [recommended]"
-            ElseIf R6ProfileRegionVar = "eus" Then
-                dropRegion.Text = "eus (us east)"
-            ElseIf R6ProfileRegionVar = "cus" Then
-                dropRegion.Text = "cus (us central)"
-            ElseIf R6ProfileRegionVar = "scus" Then
-                dropRegion.Text = "scus (us south central)"
-            ElseIf R6ProfileRegionVar = "wus" Then
-                dropRegion.Text = "wus (us west)"
-            ElseIf R6ProfileRegionVar = "sbr" Then
-                dropRegion.Text = "sbr (brazil south)"
-            ElseIf R6ProfileRegionVar = "neu" Then
-                dropRegion.Text = "neu (europe north)"
-            ElseIf R6ProfileRegionVar = "weu" Then
-                dropRegion.Text = "weu (europe west)"
-            ElseIf R6ProfileRegionVar = "eas" Then
-                dropRegion.Text = "eas (asia east)"
-            ElseIf R6ProfileRegionVar = "seas" Then
-                dropRegion.Text = "seas (asia south east)"
-            ElseIf R6ProfileRegionVar = "eau" Then
-                dropRegion.Text = "eau (australia east)"
-            ElseIf R6ProfileRegionVar = "wja" Then
-                dropRegion.Text = "wja (japan west)"
+            ElseIf R6ProfileRegionVar = "eastus" Then
+                dropRegion.Text = "eastus (us east)"
+            ElseIf R6ProfileRegionVar = "centralus" Then
+                dropRegion.Text = "centralus (us central)"
+            ElseIf R6ProfileRegionVar = "southcentralus" Then
+                dropRegion.Text = "southcentralus (us south central)"
+            ElseIf R6ProfileRegionVar = "westus" Then
+                dropRegion.Text = "westus (us west)"
+            ElseIf R6ProfileRegionVar = "brazilsouth" Then
+                dropRegion.Text = "brazilsouth (brazil south)"
+            ElseIf R6ProfileRegionVar = "northeurope" Then
+                dropRegion.Text = "northeurope (europe north)"
+            ElseIf R6ProfileRegionVar = "westeurope" Then
+                dropRegion.Text = "westeurope (europe west)"
+            ElseIf R6ProfileRegionVar = "southafricanorth" Then
+                dropRegion.Text = "southafricanorth (africa south north)"
+            ElseIf R6ProfileRegionVar = "eastasia" Then
+                dropRegion.Text = "eastasia (asia east)"
+            ElseIf R6ProfileRegionVar = "southeastasia" Then
+                dropRegion.Text = "southeastasia (asia south east)"
+            ElseIf R6ProfileRegionVar = "australiaeast" Then
+                dropRegion.Text = "australiaeast (australia east)"
+            ElseIf R6ProfileRegionVar = "australiasoutheast" Then
+                dropRegion.Text = "australiasoutheast (australia south east)"
+            ElseIf R6ProfileRegionVar = "japanwest" Then
+                dropRegion.Text = "japanwest (japan west)"
             End If
 
             ' Set value for read-only
@@ -127,27 +131,31 @@ Public Class frmMain
 
         ElseIf dropRegion.Text = "default (ping based) [recommended]" And R6ProfileRegionVar = "default" Then
             btnApply.Enabled = False
-        ElseIf dropRegion.Text = "eus (US East)" And R6ProfileRegionVar = "eus" Then
+        ElseIf dropRegion.Text = "eastus (US East)" And R6ProfileRegionVar = "eastus" Then
             btnApply.Enabled = False
-        ElseIf dropRegion.Text = "cus (US Central)" And R6ProfileRegionVar = "cus" Then
+        ElseIf dropRegion.Text = "centralus (US Central)" And R6ProfileRegionVar = "centralus" Then
             btnApply.Enabled = False
-        ElseIf dropRegion.Text = "scus (US South Central)" And R6ProfileRegionVar = "scus" Then
+        ElseIf dropRegion.Text = "southcentralus (US South Central)" And R6ProfileRegionVar = "southcentralus" Then
             btnApply.Enabled = False
-        ElseIf dropRegion.Text = "wus (US West)" And R6ProfileRegionVar = "wus" Then
+        ElseIf dropRegion.Text = "westus (US West)" And R6ProfileRegionVar = "westus" Then
             btnApply.Enabled = False
-        ElseIf dropRegion.Text = "sbr (Brazil South)" And R6ProfileRegionVar = "sbr" Then
+        ElseIf dropRegion.Text = "brazilsouth (Brazil South)" And R6ProfileRegionVar = "brazilsouth" Then
             btnApply.Enabled = False
-        ElseIf dropRegion.Text = "neu (Europe North)" And R6ProfileRegionVar = "neu" Then
+        ElseIf dropRegion.Text = "northeurope (Europe North)" And R6ProfileRegionVar = "northeurope" Then
             btnApply.Enabled = False
-        ElseIf dropRegion.Text = "weu (Europe West)" And R6ProfileRegionVar = "weu" Then
+        ElseIf dropRegion.Text = "westeurope (Europe West)" And R6ProfileRegionVar = "westeurope" Then
             btnApply.Enabled = False
-        ElseIf dropRegion.Text = "eas (Asia East)" And R6ProfileRegionVar = "eas" Then
+        ElseIf dropRegion.Text = "southafricanorth (Africa South North)" And R6ProfileRegionVar = "southafricanorth" Then
             btnApply.Enabled = False
-        ElseIf dropRegion.Text = "seas (Asia South East)" And R6ProfileRegionVar = "seas" Then
+        ElseIf dropRegion.Text = "eastasia (Asia East)" And R6ProfileRegionVar = "eastasia" Then
             btnApply.Enabled = False
-        ElseIf dropRegion.Text = "eau (Australia East)" And R6ProfileRegionVar = "eau" Then
+        ElseIf dropRegion.Text = "southeastasia (Asia South East)" And R6ProfileRegionVar = "southeastasia" Then
             btnApply.Enabled = False
-        ElseIf dropRegion.Text = "wja (Japan West)" And R6ProfileRegionVar = "wja" Then
+        ElseIf dropRegion.Text = "australiaeast (Australia East)" And R6ProfileRegionVar = "australiaeast" Then
+            btnApply.Enabled = False
+        ElseIf dropRegion.Text = "australiasoutheast (Australia South East)" And R6ProfileRegionVar = "australiasoutheast" Then
+            btnApply.Enabled = False
+        ElseIf dropRegion.Text = "japanwest (Japan West)" And R6ProfileRegionVar = "japanwest" Then
             btnApply.Enabled = False
 
         Else
