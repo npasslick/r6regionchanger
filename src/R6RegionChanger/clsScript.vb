@@ -132,85 +132,85 @@ Public Class clsScript
                 R6FullProfilePathFI.IsReadOnly = False
 
                 If frmMain.dropRegion.Text = "default (ping based) [recommended]" Then
-                    writeIniValue("ONLINE", "DataCenterHint", "default", R6FullProfilePath)
+                    writeIniValue("ONLINE", "DataCenterHint", "playfab/default", R6FullProfilePath)
                     frmMain.btnApply.Enabled = False
                     MessageBox.Show("Settings saved successfully!" & vbNewLine & vbNewLine & "Profile: " & frmMain.dropProfile.Text & vbNewLine & "Region: default" & vbNewLine & "Read-only: " & frmMain.cbReadOnly.Checked, "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
                     R6FullProfilePathFI.IsReadOnly = True
 
                 ElseIf frmMain.dropRegion.Text = "eastus (US East)" Then
-                    writeIniValue("ONLINE", "DataCenterHint", "eastus", R6FullProfilePath)
+                    writeIniValue("ONLINE", "DataCenterHint", "playfab/eastus", R6FullProfilePath)
                     frmMain.btnApply.Enabled = False
                     MessageBox.Show("Settings saved successfully!" & vbNewLine & vbNewLine & "Profile: " & frmMain.dropProfile.Text & vbNewLine & "Region: eastus (US East)" & vbNewLine & "Read-only: " & frmMain.cbReadOnly.Checked, "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
                     R6FullProfilePathFI.IsReadOnly = True
 
                 ElseIf frmMain.dropRegion.Text = "centralus (US Central)" Then
-                    writeIniValue("ONLINE", "DataCenterHint", "centralus", R6FullProfilePath)
+                    writeIniValue("ONLINE", "DataCenterHint", "playfab/centralus", R6FullProfilePath)
                     frmMain.btnApply.Enabled = False
                     MessageBox.Show("Settings saved successfully!" & vbNewLine & vbNewLine & "Profile: " & frmMain.dropProfile.Text & vbNewLine & "Region: centralus (US Central)" & vbNewLine & "Read-only: " & frmMain.cbReadOnly.Checked, "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
                     R6FullProfilePathFI.IsReadOnly = True
 
                 ElseIf frmMain.dropRegion.Text = "southcentralus (US South Central)" Then
-                    writeIniValue("ONLINE", "DataCenterHint", "southcentralus", R6FullProfilePath)
+                    writeIniValue("ONLINE", "DataCenterHint", "playfab/southcentralus", R6FullProfilePath)
                     frmMain.btnApply.Enabled = False
                     MessageBox.Show("Settings saved successfully!" & vbNewLine & vbNewLine & "Profile: " & frmMain.dropProfile.Text & vbNewLine & "Region: southcentralus (US South Central)" & vbNewLine & "Read-only: " & frmMain.cbReadOnly.Checked, "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
                     R6FullProfilePathFI.IsReadOnly = True
 
                 ElseIf frmMain.dropRegion.Text = "westus (US West)" Then
-                    writeIniValue("ONLINE", "DataCenterHint", "westus", R6FullProfilePath)
+                    writeIniValue("ONLINE", "DataCenterHint", "playfab/westus", R6FullProfilePath)
                     frmMain.btnApply.Enabled = False
                     MessageBox.Show("Settings saved successfully!" & vbNewLine & vbNewLine & "Profile: " & frmMain.dropProfile.Text & vbNewLine & "Region: westus (US West)" & vbNewLine & "Read-only: " & frmMain.cbReadOnly.Checked, "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
                     R6FullProfilePathFI.IsReadOnly = True
 
                 ElseIf frmMain.dropRegion.Text = "brazilsouth (Brazil South)" Then
-                    writeIniValue("ONLINE", "DataCenterHint", "brazilsouth", R6FullProfilePath)
+                    writeIniValue("ONLINE", "DataCenterHint", "playfab/brazilsouth", R6FullProfilePath)
                     frmMain.btnApply.Enabled = False
                     MessageBox.Show("Settings saved successfully!" & vbNewLine & vbNewLine & "Profile: " & frmMain.dropProfile.Text & vbNewLine & "Region: brazilsouth (Brazil South)" & vbNewLine & "Read-only: " & frmMain.cbReadOnly.Checked, "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
                     R6FullProfilePathFI.IsReadOnly = True
 
                 ElseIf frmMain.dropRegion.Text = "northeurope (Europe North)" Then
-                    writeIniValue("ONLINE", "DataCenterHint", "northeurope", R6FullProfilePath)
+                    writeIniValue("ONLINE", "DataCenterHint", "playfab/northeurope", R6FullProfilePath)
                     frmMain.btnApply.Enabled = False
                     MessageBox.Show("Settings saved successfully!" & vbNewLine & vbNewLine & "Profile: " & frmMain.dropProfile.Text & vbNewLine & "Region: northeurope (Europe North)" & vbNewLine & "Read-only: " & frmMain.cbReadOnly.Checked, "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
                     R6FullProfilePathFI.IsReadOnly = True
 
                 ElseIf frmMain.dropRegion.Text = "westeurope (Europe West)" Then
-                    writeIniValue("ONLINE", "DataCenterHint", "westeurope", R6FullProfilePath)
+                    writeIniValue("ONLINE", "DataCenterHint", "playfab/westeurope", R6FullProfilePath)
                     frmMain.btnApply.Enabled = False
                     MessageBox.Show("Settings saved successfully!" & vbNewLine & vbNewLine & "Profile: " & frmMain.dropProfile.Text & vbNewLine & "Region: westeurope (Europe West)" & vbNewLine & "Read-only: " & frmMain.cbReadOnly.Checked, "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
                     R6FullProfilePathFI.IsReadOnly = True
                     
                 ElseIf frmMain.dropRegion.Text = "southafricanorth (africa south north)" Then
-                    writeIniValue("ONLINE", "DataCenterHint", "southafricanorth", R6FullProfilePath)
+                    writeIniValue("ONLINE", "DataCenterHint", "playfab/southafricanorth", R6FullProfilePath)
                     frmMain.btnApply.Enabled = False
                     MessageBox.Show("Settings saved successfully!" & vbNewLine & vbNewLine & "Profile: " & frmMain.dropProfile.Text & vbNewLine & "Region: southafricanorth (africa south north)" & vbNewLine & "Read-only: " & frmMain.cbReadOnly.Checked, "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
                     R6FullProfilePathFI.IsReadOnly = True
 
                 ElseIf frmMain.dropRegion.Text = "eastasia (Asia East)" Then
-                    writeIniValue("ONLINE", "DataCenterHint", "eastasia", R6FullProfilePath)
+                    writeIniValue("ONLINE", "DataCenterHint", "playfab/eastasia", R6FullProfilePath)
                     frmMain.btnApply.Enabled = False
                     MessageBox.Show("Settings saved successfully!" & vbNewLine & vbNewLine & "Profile: " & frmMain.dropProfile.Text & vbNewLine & "Region: eastasia (Asia East)" & vbNewLine & "Read-only: " & frmMain.cbReadOnly.Checked, "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
                     R6FullProfilePathFI.IsReadOnly = True
 
                 ElseIf frmMain.dropRegion.Text = "southeastasia (Asia South East)" Then
-                    writeIniValue("ONLINE", "DataCenterHint", "southeastasia", R6FullProfilePath)
+                    writeIniValue("ONLINE", "DataCenterHint", "playfab/southeastasia", R6FullProfilePath)
                     frmMain.btnApply.Enabled = False
                     MessageBox.Show("Settings saved successfully!" & vbNewLine & vbNewLine & "Profile: " & frmMain.dropProfile.Text & vbNewLine & "Region: southeastasia (Asia South East)" & vbNewLine & "Read-only: " & frmMain.cbReadOnly.Checked, "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
                     R6FullProfilePathFI.IsReadOnly = True
 
                 ElseIf frmMain.dropRegion.Text = "australiaeast (Australia East)" Then
-                    writeIniValue("ONLINE", "DataCenterHint", "australiaeast", R6FullProfilePath)
+                    writeIniValue("ONLINE", "DataCenterHint", "playfab/australiaeast", R6FullProfilePath)
                     frmMain.btnApply.Enabled = False
                     MessageBox.Show("Settings saved successfully!" & vbNewLine & vbNewLine & "Profile: " & frmMain.dropProfile.Text & vbNewLine & "Region: australiaeast (Australia East)" & vbNewLine & "Read-only: " & frmMain.cbReadOnly.Checked, "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
                     R6FullProfilePathFI.IsReadOnly = True
                     
                 ElseIf frmMain.dropRegion.Text = "australiasoutheast (Australia South East)" Then
-                    writeIniValue("ONLINE", "DataCenterHint", "australiasoutheast", R6FullProfilePath)
+                    writeIniValue("ONLINE", "DataCenterHint", "playfab/australiasoutheast", R6FullProfilePath)
                     frmMain.btnApply.Enabled = False
                     MessageBox.Show("Settings saved successfully!" & vbNewLine & vbNewLine & "Profile: " & frmMain.dropProfile.Text & vbNewLine & "Region: australiasoutheast (Australia South East)" & vbNewLine & "Read-only: " & frmMain.cbReadOnly.Checked, "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
                     R6FullProfilePathFI.IsReadOnly = True
 
                 ElseIf frmMain.dropRegion.Text = "japanwest (Japan West)" Then
-                    writeIniValue("ONLINE", "DataCenterHint", "japanwest", R6FullProfilePath)
+                    writeIniValue("ONLINE", "DataCenterHint", "playfab/japanwest", R6FullProfilePath)
                     frmMain.btnApply.Enabled = False
                     MessageBox.Show("Settings saved successfully!" & vbNewLine & vbNewLine & "Profile: " & frmMain.dropProfile.Text & vbNewLine & "Region: japanwest (Japan West)" & vbNewLine & "Read-only: " & frmMain.cbReadOnly.Checked, "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
                     R6FullProfilePathFI.IsReadOnly = True
@@ -225,72 +225,72 @@ Public Class clsScript
                 R6FullProfilePathFI.IsReadOnly = False
 
                 If frmMain.dropRegion.Text = "default (ping based) [recommended]" Then
-                    writeIniValue("ONLINE", "DataCenterHint", "default", R6FullProfilePath)
+                    writeIniValue("ONLINE", "DataCenterHint", "playfab/default", R6FullProfilePath)
                     frmMain.btnApply.Enabled = False
                     MessageBox.Show("Settings saved successfully!" & vbNewLine & vbNewLine & "Profile: " & frmMain.dropProfile.Text & vbNewLine & "Region: default" & vbNewLine & "Read-only: " & frmMain.cbReadOnly.Checked, "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
 
                 ElseIf frmMain.dropRegion.Text = "eastus (US East)" Then
-                    writeIniValue("ONLINE", "DataCenterHint", "eastus", R6FullProfilePath)
+                    writeIniValue("ONLINE", "DataCenterHint", "playfab/eastus", R6FullProfilePath)
                     frmMain.btnApply.Enabled = False
                     MessageBox.Show("Settings saved successfully!" & vbNewLine & vbNewLine & "Profile: " & frmMain.dropProfile.Text & vbNewLine & "Region: eastus (US East)" & vbNewLine & "Read-only: " & frmMain.cbReadOnly.Checked, "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
 
                 ElseIf frmMain.dropRegion.Text = "centralus (US Central)" Then
-                    writeIniValue("ONLINE", "DataCenterHint", "centralus", R6FullProfilePath)
+                    writeIniValue("ONLINE", "DataCenterHint", "playfab/centralus", R6FullProfilePath)
                     frmMain.btnApply.Enabled = False
                     MessageBox.Show("Settings saved successfully!" & vbNewLine & vbNewLine & "Profile: " & frmMain.dropProfile.Text & vbNewLine & "Region: centralus (US Central)" & vbNewLine & "Read-only: " & frmMain.cbReadOnly.Checked, "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
 
                 ElseIf frmMain.dropRegion.Text = "southcentralus (US South Central)" Then
-                    writeIniValue("ONLINE", "DataCenterHint", "southcentralus", R6FullProfilePath)
+                    writeIniValue("ONLINE", "DataCenterHint", "playfab/southcentralus", R6FullProfilePath)
                     frmMain.btnApply.Enabled = False
                     MessageBox.Show("Settings saved successfully!" & vbNewLine & vbNewLine & "Profile: " & frmMain.dropProfile.Text & vbNewLine & "Region: southcentralus (US South Central)" & vbNewLine & "Read-only: " & frmMain.cbReadOnly.Checked, "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
 
                 ElseIf frmMain.dropRegion.Text = "westus (US West)" Then
-                    writeIniValue("ONLINE", "DataCenterHint", "westus", R6FullProfilePath)
+                    writeIniValue("ONLINE", "DataCenterHint", "playfab/westus", R6FullProfilePath)
                     frmMain.btnApply.Enabled = False
                     MessageBox.Show("Settings saved successfully!" & vbNewLine & vbNewLine & "Profile: " & frmMain.dropProfile.Text & vbNewLine & "Region: westus (US West)" & vbNewLine & "Read-only: " & frmMain.cbReadOnly.Checked, "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
 
                 ElseIf frmMain.dropRegion.Text = "brazilsouth (Brazil South)" Then
-                    writeIniValue("ONLINE", "DataCenterHint", "brazilsouth", R6FullProfilePath)
+                    writeIniValue("ONLINE", "DataCenterHint", "playfab/brazilsouth", R6FullProfilePath)
                     frmMain.btnApply.Enabled = False
                     MessageBox.Show("Settings saved successfully!" & vbNewLine & vbNewLine & "Profile: " & frmMain.dropProfile.Text & vbNewLine & "Region: brazilsouth (Brazil South)" & vbNewLine & "Read-only: " & frmMain.cbReadOnly.Checked, "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
 
                 ElseIf frmMain.dropRegion.Text = "northeurope (Europe North)" Then
-                    writeIniValue("ONLINE", "DataCenterHint", "northeurope", R6FullProfilePath)
+                    writeIniValue("ONLINE", "DataCenterHint", "playfab/northeurope", R6FullProfilePath)
                     frmMain.btnApply.Enabled = False
                     MessageBox.Show("Settings saved successfully!" & vbNewLine & vbNewLine & "Profile: " & frmMain.dropProfile.Text & vbNewLine & "Region: northeurope (Europe North)" & vbNewLine & "Read-only: " & frmMain.cbReadOnly.Checked, "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
 
                 ElseIf frmMain.dropRegion.Text = "westeurope (Europe West)" Then
-                    writeIniValue("ONLINE", "DataCenterHint", "westeurope", R6FullProfilePath)
+                    writeIniValue("ONLINE", "DataCenterHint", "playfab/westeurope", R6FullProfilePath)
                     frmMain.btnApply.Enabled = False
                     MessageBox.Show("Settings saved successfully!" & vbNewLine & vbNewLine & "Profile: " & frmMain.dropProfile.Text & vbNewLine & "Region: westeurope (Europe West)" & vbNewLine & "Read-only: " & frmMain.cbReadOnly.Checked, "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
                     
                 ElseIf frmMain.dropRegion.Text = "southafricanorth (Africa South North)" Then
-                    writeIniValue("ONLINE", "DataCenterHint", "southafricanorth", R6FullProfilePath)
+                    writeIniValue("ONLINE", "DataCenterHint", "playfab/southafricanorth", R6FullProfilePath)
                     frmMain.btnApply.Enabled = False
                     MessageBox.Show("Settings saved successfully!" & vbNewLine & vbNewLine & "Profile: " & frmMain.dropProfile.Text & vbNewLine & "Region: southafricanorth (Africa South North)" & vbNewLine & "Read-only: " & frmMain.cbReadOnly.Checked, "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
 
                 ElseIf frmMain.dropRegion.Text = "eastasia (Asia East)" Then
-                    writeIniValue("ONLINE", "DataCenterHint", "eastasia", R6FullProfilePath)
+                    writeIniValue("ONLINE", "DataCenterHint", "playfab/eastasia", R6FullProfilePath)
                     frmMain.btnApply.Enabled = False
                     MessageBox.Show("Settings saved successfully!" & vbNewLine & vbNewLine & "Profile: " & frmMain.dropProfile.Text & vbNewLine & "eastasia (Asia East)" & vbNewLine & "Read-only: " & frmMain.cbReadOnly.Checked, "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
 
                 ElseIf frmMain.dropRegion.Text = "southeastasia (Asia South East)" Then
-                    writeIniValue("ONLINE", "DataCenterHint", "southeastasia", R6FullProfilePath)
+                    writeIniValue("ONLINE", "DataCenterHint", "playfab/southeastasia", R6FullProfilePath)
                     frmMain.btnApply.Enabled = False
                     MessageBox.Show("Settings saved successfully!" & vbNewLine & vbNewLine & "Profile: " & frmMain.dropProfile.Text & vbNewLine & "Region: southeastasia (Asia South East)" & vbNewLine & "Read-only: " & frmMain.cbReadOnly.Checked, "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
 
                 ElseIf frmMain.dropRegion.Text = "australiaeast (Australia East)" Then
-                    writeIniValue("ONLINE", "DataCenterHint", "australiaeast", R6FullProfilePath)
+                    writeIniValue("ONLINE", "DataCenterHint", "playfab/australiaeast", R6FullProfilePath)
                     frmMain.btnApply.Enabled = False
                     MessageBox.Show("Settings saved successfully!" & vbNewLine & vbNewLine & "Profile: " & frmMain.dropProfile.Text & vbNewLine & "Region: australiaeast (Australia East)" & vbNewLine & "Read-only: " & frmMain.cbReadOnly.Checked, "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
                     
                 ElseIf frmMain.dropRegion.Text = "australiasoutheast (Australia South East)" Then
-                    writeIniValue("ONLINE", "DataCenterHint", "australiasoutheast", R6FullProfilePath)
+                    writeIniValue("ONLINE", "DataCenterHint", "playfab/australiasoutheast", R6FullProfilePath)
                     frmMain.btnApply.Enabled = False
                     MessageBox.Show("Settings saved successfully!" & vbNewLine & vbNewLine & "Profile: " & frmMain.dropProfile.Text & vbNewLine & "Region: australiasoutheast (Australia South East)" & vbNewLine & "Read-only: " & frmMain.cbReadOnly.Checked, "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
 
                 ElseIf frmMain.dropRegion.Text = "japanwest (Japan West)" Then
-                    writeIniValue("ONLINE", "DataCenterHint", "japanwest", R6FullProfilePath)
+                    writeIniValue("ONLINE", "DataCenterHint", "playfab/japanwest", R6FullProfilePath)
                     frmMain.btnApply.Enabled = False
                     MessageBox.Show("Settings saved successfully!" & vbNewLine & vbNewLine & "Profile: " & frmMain.dropProfile.Text & vbNewLine & "Region: japanwest (Japan West)" & vbNewLine & "Read-only: " & frmMain.cbReadOnly.Checked, "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
 
